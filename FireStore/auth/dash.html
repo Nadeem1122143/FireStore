@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Dash</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <span>Home</span>
+        <span>Users</span>
+        <span>Assignments</span>
+        <button id="logoutBtn"> Logout</button>
+    </nav>
+    <div id="dashContainer"> 
+    <h2>All Students Assignments</h2>
+<br>
+    
+    <div class="stdForm">
+        <input type="text" id="stdName">
+        <input type="url" id="stdlink">
+        <br>
+        <button id="Update">Updat Data</button>
+        <div class="loader" id="loader2"></div>
+    </div>
+    
+    <div class="data"></div>
+</div>
+    <script src="../FireBase.js" type="module"></script>
+<script src="./dash.js" type="module"></script>
+</body>
+</html>
